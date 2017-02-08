@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EventDetails" representedClassName="EventDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventEnd" representedClassName="EventEnd" syncable="YES" codeGenerationType="class">
+        <attribute name="end" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventLatLng" representedClassName="EventLatLng" syncable="YES" codeGenerationType="class">
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="EventLocation" representedClassName="EventLocation" syncable="YES" codeGenerationType="class">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventMessage" representedClassName="EventMessage" syncable="YES" codeGenerationType="class">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventStart" representedClassName="EventStart" syncable="YES" codeGenerationType="class">
+        <attribute name="start" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventTitle" representedClassName="EventTitle" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EventDetails" positionX="9" positionY="72" width="128" height="60"/>
+        <element name="EventEnd" positionX="-9" positionY="45" width="128" height="60"/>
+        <element name="EventLatLng" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="EventLocation" positionX="-27" positionY="63" width="128" height="60"/>
+        <element name="EventMessage" positionX="27" positionY="81" width="128" height="60"/>
+        <element name="EventStart" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="EventTitle" positionX="-45" positionY="54" width="128" height="60"/>
+    </elements>
 </model>

@@ -7,7 +7,17 @@
 //
 
 import UIKit
+import CoreLocation
 import CoreData
+import GoogleMaps
+import GooglePlaces
+import FBSDKLoginKit
+import FBSDKCoreKit
+import Fabric
+import Firebase
+import FirebaseAuth
+import DigitsKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +26,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyDlEvP73NqweiN5yR_1-Ywxp6piJ-ndCGc")
+        GMSPlacesClient.provideAPIKey("AIzaSyCgwNNk1M0-EmbRBVp3ap9ZJhPfqUiNsZA")
+        Fabric.with([Digits.self])
+        FIRApp.configure()
+        FIRDatabase.database().persistenceEnabled = false
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        IQKeyboardManager.sharedManager().enable = true
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "Futura", size: 17.0)!]
+        //UILabel.appearance().font = UIFont(name: "Futura", size: 17.0)
+        
+        //self.window = UIWindow(frame: UIScreen.main.bounds)
+        //let frame =  self.window!.bounds
+        
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        //let mtvc = storyboard.instantiateViewController(withIdentifier :"MapTable") as! MapTableViewController
+        //mtvc.setEventCollection(eventsArr)
+        
+        //let vtv:MapTableViewController = MapTableViewController(frame: frame)
+        //vtv.setEventCollection(eventsArr)
+        //let nav:UINavigationController = UINavigationController(rootViewController: vtv)
+        //self.window!.rootViewController =  nav
+        //self.window!.backgroundColor = .white
+        //self.window!.makeKeyAndVisible()
         return true
+        // Override point for customization after application launch.
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -42,6 +76,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
+    }
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String!, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        
+        return handled
     }
 
     // MARK: - Core Data stack

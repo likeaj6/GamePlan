@@ -7,23 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFF9F9E9315FA281342DA552 /* Pods_Gameplan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18DE7104CA398F148E74152 /* Pods_Gameplan.framework */; };
+		F4062AD51E31EE6300CFF6A2 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062AD11E31EE6300CFF6A2 /* DateTimePicker.swift */; };
+		F4062AD61E31EE6300CFF6A2 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062AD21E31EE6300CFF6A2 /* DateCollectionViewCell.swift */; };
+		F4062AD71E31EE6300CFF6A2 /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062AD31E31EE6300CFF6A2 /* StepCollectionViewFlowLayout.swift */; };
+		F4062AD81E31EE6300CFF6A2 /* EventPageControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062AD41E31EE6300CFF6A2 /* EventPageControllers.swift */; };
+		F4062ADA1E32F8DF00CFF6A2 /* EventConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062AD91E32F8DF00CFF6A2 /* EventConfirmationViewController.swift */; };
+		F41D0CA71E3AFD2300271C2D /* FriendSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D0CA61E3AFD2300271C2D /* FriendSearch.swift */; };
+		F42C04511E346C5C008FEF1F /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C04501E346C5C008FEF1F /* SCLAlertView.swift */; };
+		F42C04531E346D76008FEF1F /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C04521E346D76008FEF1F /* SCLExtensions.swift */; };
+		F42C04551E34A66E008FEF1F /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C04541E34A66E008FEF1F /* SignUpController.swift */; };
+		F42C04571E34B36F008FEF1F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C04561E34B36F008FEF1F /* CardView.swift */; };
+		F469362E1E3C53A200E4F23D /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469362D1E3C53A200E4F23D /* UIView+Anchors.swift */; };
+		F4A2F2841E32FE9700311AA3 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2F2831E32FE9700311AA3 /* UserClass.swift */; };
+		F4A2F2861E33038900311AA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2F2851E33038900311AA3 /* LoginViewController.swift */; };
+		F4A2F28E1E331D0400311AA3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2F28D1E331D0400311AA3 /* CoreDataManager.swift */; };
+		F4A2F2911E34490100311AA3 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2F2901E34490100311AA3 /* FoldingCell.swift */; };
 		F4B967AB1E319A6100CA15E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967AA1E319A6100CA15E1 /* AppDelegate.swift */; };
-		F4B967AD1E319A6100CA15E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967AC1E319A6100CA15E1 /* ViewController.swift */; };
+		F4B967AD1E319A6100CA15E1 /* MapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967AC1E319A6100CA15E1 /* MapTableViewController.swift */; };
 		F4B967B01E319A6100CA15E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B967AE1E319A6100CA15E1 /* Main.storyboard */; };
 		F4B967B31E319A6100CA15E1 /* Gameplan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4B967B11E319A6100CA15E1 /* Gameplan.xcdatamodeld */; };
 		F4B967B51E319A6100CA15E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B967B41E319A6100CA15E1 /* Assets.xcassets */; };
 		F4B967B81E319A6100CA15E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B967B61E319A6100CA15E1 /* LaunchScreen.storyboard */; };
+		F4B967C01E319DC000CA15E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967BF1E319DC000CA15E1 /* MapViewController.swift */; };
+		F4B967C21E319F9D00CA15E1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967C11E319F9D00CA15E1 /* Event.swift */; };
+		F4B967C41E31A88000CA15E1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967C31E31A88000CA15E1 /* CustomTableViewCell.swift */; };
+		F4B967C61E31A90E00CA15E1 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967C51E31A90E00CA15E1 /* EventsTableViewController.swift */; };
+		F4B967C81E31A9D600CA15E1 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967C71E31A9D600CA15E1 /* EventDetailViewController.swift */; };
+		F4B967CA1E31B41800CA15E1 /* EventMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967C91E31B41800CA15E1 /* EventMarker.swift */; };
+		F4B967CC1E31B93700CA15E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B967CB1E31B93700CA15E1 /* GoogleService-Info.plist */; };
+		F4B967D01E31E31800CA15E1 /* UIFont+CustomSystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967CF1E31E31800CA15E1 /* UIFont+CustomSystemFont.swift */; };
+		F4B967D31E31E68B00CA15E1 /* EventCreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967D11E31E68B00CA15E1 /* EventCreationController.swift */; };
+		F4B967D41E31E68B00CA15E1 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B967D21E31E68B00CA15E1 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5D1E71A02C60EBA6B83C81 /* Pods-Gameplan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gameplan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gameplan/Pods-Gameplan.release.xcconfig"; sourceTree = "<group>"; };
+		794182E384B8523DA9BEFF5B /* Pods-Gameplan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gameplan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gameplan/Pods-Gameplan.debug.xcconfig"; sourceTree = "<group>"; };
+		B18DE7104CA398F148E74152 /* Pods_Gameplan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gameplan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4062AD11E31EE6300CFF6A2 /* DateTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimePicker.swift; sourceTree = "<group>"; };
+		F4062AD21E31EE6300CFF6A2 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4062AD31E31EE6300CFF6A2 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		F4062AD41E31EE6300CFF6A2 /* EventPageControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageControllers.swift; sourceTree = "<group>"; };
+		F4062AD91E32F8DF00CFF6A2 /* EventConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventConfirmationViewController.swift; sourceTree = "<group>"; };
+		F41D0CA61E3AFD2300271C2D /* FriendSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearch.swift; sourceTree = "<group>"; };
+		F42C04501E346C5C008FEF1F /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		F42C04521E346D76008FEF1F /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		F42C04541E34A66E008FEF1F /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		F42C04561E34B36F008FEF1F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F469362D1E3C53A200E4F23D /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		F4A2F2831E32FE9700311AA3 /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		F4A2F2851E33038900311AA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4A2F28D1E331D0400311AA3 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F4A2F2901E34490100311AA3 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		F4B6F63F1E3B1ACF00EABCE5 /* Gameplan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gameplan.entitlements; sourceTree = "<group>"; };
 		F4B967A71E319A6100CA15E1 /* Gameplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gameplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B967AA1E319A6100CA15E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4B967AC1E319A6100CA15E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B967AC1E319A6100CA15E1 /* MapTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewController.swift; sourceTree = "<group>"; };
 		F4B967AF1E319A6100CA15E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4B967B21E319A6100CA15E1 /* Gameplan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gameplan.xcdatamodel; sourceTree = "<group>"; };
 		F4B967B41E319A6100CA15E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B967B71E319A6100CA15E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4B967B91E319A6100CA15E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B967BF1E319DC000CA15E1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F4B967C11E319F9D00CA15E1 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F4B967C31E31A88000CA15E1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F4B967C51E31A90E00CA15E1 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		F4B967C71E31A9D600CA15E1 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		F4B967C91E31B41800CA15E1 /* EventMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMarker.swift; sourceTree = "<group>"; };
+		F4B967CB1E31B93700CA15E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4B967CD1E31B95200CA15E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B967CF1E31E31800CA15E1 /* UIFont+CustomSystemFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomSystemFont.swift"; sourceTree = "<group>"; };
+		F4B967D11E31E68B00CA15E1 /* EventCreationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCreationController.swift; sourceTree = "<group>"; };
+		F4B967D21E31E68B00CA15E1 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +86,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF9F9E9315FA281342DA552 /* Pods_Gameplan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55470D3A72FD90164E097236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				794182E384B8523DA9BEFF5B /* Pods-Gameplan.debug.xcconfig */,
+				0A5D1E71A02C60EBA6B83C81 /* Pods-Gameplan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACE02CC6A51139BC7F93F8EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18DE7104CA398F148E74152 /* Pods_Gameplan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41D0CA51E3AFD0B00271C2D /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F41D0CA61E3AFD2300271C2D /* FriendSearch.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		F469362F1E3C53AE00E4F23D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2F2851E33038900311AA3 /* LoginViewController.swift */,
+				F42C04541E34A66E008FEF1F /* SignUpController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		F4A2F2801E32FE2800311AA3 /* MapTable */ = {
+			isa = PBXGroup;
+			children = (
+				F4B967AC1E319A6100CA15E1 /* MapTableViewController.swift */,
+				F4B967C51E31A90E00CA15E1 /* EventsTableViewController.swift */,
+				F4B967BF1E319DC000CA15E1 /* MapViewController.swift */,
+			);
+			name = MapTable;
+			sourceTree = "<group>";
+		};
+		F4A2F2811E32FE4800311AA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4B967C91E31B41800CA15E1 /* EventMarker.swift */,
+				F4A2F2831E32FE9700311AA3 /* UserClass.swift */,
+				F4B967C11E319F9D00CA15E1 /* Event.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4A2F2821E32FE5000311AA3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F4B967AE1E319A6100CA15E1 /* Main.storyboard */,
+				F4B967B61E319A6100CA15E1 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4A2F28F1E33FCA800311AA3 /* EventCreation */ = {
+			isa = PBXGroup;
+			children = (
+				F4062AD91E32F8DF00CFF6A2 /* EventConfirmationViewController.swift */,
+				F4B967D11E31E68B00CA15E1 /* EventCreationController.swift */,
+				F4062AD41E31EE6300CFF6A2 /* EventPageControllers.swift */,
+				F4B967D21E31E68B00CA15E1 /* PageViewController.swift */,
+			);
+			name = EventCreation;
+			sourceTree = "<group>";
+		};
 		F4B9679E1E319A6000CA15E1 = {
 			isa = PBXGroup;
 			children = (
 				F4B967A91E319A6100CA15E1 /* Gameplan */,
 				F4B967A81E319A6100CA15E1 /* Products */,
+				55470D3A72FD90164E097236 /* Pods */,
+				ACE02CC6A51139BC7F93F8EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +188,29 @@
 		F4B967A91E319A6100CA15E1 /* Gameplan */ = {
 			isa = PBXGroup;
 			children = (
+				F4B6F63F1E3B1ACF00EABCE5 /* Gameplan.entitlements */,
+				F42C04521E346D76008FEF1F /* SCLExtensions.swift */,
+				F42C04501E346C5C008FEF1F /* SCLAlertView.swift */,
 				F4B967AA1E319A6100CA15E1 /* AppDelegate.swift */,
-				F4B967AC1E319A6100CA15E1 /* ViewController.swift */,
-				F4B967AE1E319A6100CA15E1 /* Main.storyboard */,
+				F4B967CF1E31E31800CA15E1 /* UIFont+CustomSystemFont.swift */,
+				F4B967C71E31A9D600CA15E1 /* EventDetailViewController.swift */,
+				F469362D1E3C53A200E4F23D /* UIView+Anchors.swift */,
+				F4A2F2901E34490100311AA3 /* FoldingCell.swift */,
+				F4B967C31E31A88000CA15E1 /* CustomTableViewCell.swift */,
+				F42C04561E34B36F008FEF1F /* CardView.swift */,
+				F4062AD11E31EE6300CFF6A2 /* DateTimePicker.swift */,
+				F4A2F28D1E331D0400311AA3 /* CoreDataManager.swift */,
+				F4062AD21E31EE6300CFF6A2 /* DateCollectionViewCell.swift */,
+				F4062AD31E31EE6300CFF6A2 /* StepCollectionViewFlowLayout.swift */,
+				F469362F1E3C53AE00E4F23D /* Onboarding */,
+				F41D0CA51E3AFD0B00271C2D /* Friends */,
+				F4A2F2801E32FE2800311AA3 /* MapTable */,
+				F4A2F2811E32FE4800311AA3 /* Model */,
+				F4A2F28F1E33FCA800311AA3 /* EventCreation */,
+				F4A2F2821E32FE5000311AA3 /* Storyboards */,
 				F4B967B41E319A6100CA15E1 /* Assets.xcassets */,
-				F4B967B61E319A6100CA15E1 /* LaunchScreen.storyboard */,
-				F4B967B91E319A6100CA15E1 /* Info.plist */,
+				F4B967CD1E31B95200CA15E1 /* Info.plist */,
+				F4B967CB1E31B93700CA15E1 /* GoogleService-Info.plist */,
 				F4B967B11E319A6100CA15E1 /* Gameplan.xcdatamodeld */,
 			);
 			path = Gameplan;
@@ -74,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4B967BC1E319A6100CA15E1 /* Build configuration list for PBXNativeTarget "Gameplan" */;
 			buildPhases = (
+				119AEA591F15AA54CDDC2F89 /* [CP] Check Pods Manifest.lock */,
 				F4B967A31E319A6100CA15E1 /* Sources */,
 				F4B967A41E319A6100CA15E1 /* Frameworks */,
 				F4B967A51E319A6100CA15E1 /* Resources */,
+				1307C0A7504D5BA0C7D8C9C6 /* [CP] Embed Pods Frameworks */,
+				2746A4F2184EBCCDC0369828 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,8 +251,13 @@
 				TargetAttributes = {
 					F4B967A61E319A6100CA15E1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = JBVZTGFYCC;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = N697N435ZA;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4B967B81E319A6100CA15E1 /* LaunchScreen.storyboard in Resources */,
+				F4B967CC1E31B93700CA15E1 /* GoogleService-Info.plist in Resources */,
 				F4B967B51E319A6100CA15E1 /* Assets.xcassets in Resources */,
 				F4B967B01E319A6100CA15E1 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +293,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119AEA591F15AA54CDDC2F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1307C0A7504D5BA0C7D8C9C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gameplan/Pods-Gameplan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2746A4F2184EBCCDC0369828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gameplan/Pods-Gameplan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4B967A31E319A6100CA15E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B967AD1E319A6100CA15E1 /* ViewController.swift in Sources */,
+				F42C04531E346D76008FEF1F /* SCLExtensions.swift in Sources */,
+				F4B967C41E31A88000CA15E1 /* CustomTableViewCell.swift in Sources */,
+				F4B967C61E31A90E00CA15E1 /* EventsTableViewController.swift in Sources */,
+				F4B967AD1E319A6100CA15E1 /* MapTableViewController.swift in Sources */,
+				F469362E1E3C53A200E4F23D /* UIView+Anchors.swift in Sources */,
+				F4062AD51E31EE6300CFF6A2 /* DateTimePicker.swift in Sources */,
+				F41D0CA71E3AFD2300271C2D /* FriendSearch.swift in Sources */,
+				F4A2F2861E33038900311AA3 /* LoginViewController.swift in Sources */,
+				F42C04551E34A66E008FEF1F /* SignUpController.swift in Sources */,
+				F4B967D41E31E68B00CA15E1 /* PageViewController.swift in Sources */,
+				F4A2F2841E32FE9700311AA3 /* UserClass.swift in Sources */,
 				F4B967B31E319A6100CA15E1 /* Gameplan.xcdatamodeld in Sources */,
+				F4A2F2911E34490100311AA3 /* FoldingCell.swift in Sources */,
+				F4062AD61E31EE6300CFF6A2 /* DateCollectionViewCell.swift in Sources */,
 				F4B967AB1E319A6100CA15E1 /* AppDelegate.swift in Sources */,
+				F4B967D31E31E68B00CA15E1 /* EventCreationController.swift in Sources */,
+				F42C04571E34B36F008FEF1F /* CardView.swift in Sources */,
+				F4B967D01E31E31800CA15E1 /* UIFont+CustomSystemFont.swift in Sources */,
+				F4B967C01E319DC000CA15E1 /* MapViewController.swift in Sources */,
+				F4062AD81E31EE6300CFF6A2 /* EventPageControllers.swift in Sources */,
+				F4062ADA1E32F8DF00CFF6A2 /* EventConfirmationViewController.swift in Sources */,
+				F4062AD71E31EE6300CFF6A2 /* StepCollectionViewFlowLayout.swift in Sources */,
+				F4B967C81E31A9D600CA15E1 /* EventDetailViewController.swift in Sources */,
+				F4B967C21E319F9D00CA15E1 /* Event.swift in Sources */,
+				F4A2F28E1E331D0400311AA3 /* CoreDataManager.swift in Sources */,
+				F42C04511E346C5C008FEF1F /* SCLAlertView.swift in Sources */,
+				F4B967CA1E31B41800CA15E1 /* EventMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +416,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -208,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -235,6 +466,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -251,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,26 +493,42 @@
 		};
 		F4B967BD1E319A6100CA15E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794182E384B8523DA9BEFF5B /* Pods-Gameplan.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JBVZTGFYCC;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Gameplan/Gameplan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = N697N435ZA;
 				INFOPLIST_FILE = Gameplan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjin.Gameplan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjin.GameplanTest0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c85ff4c9-ba22-4fdb-a0cc-914f3bbdd1b4";
+				PROVISIONING_PROFILE_SPECIFIER = Testing;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F4B967BE1E319A6100CA15E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5D1E71A02C60EBA6B83C81 /* Pods-Gameplan.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JBVZTGFYCC;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Gameplan/Gameplan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = N697N435ZA;
 				INFOPLIST_FILE = Gameplan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjin.Gameplan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjin.GameplanTest0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c85ff4c9-ba22-4fdb-a0cc-914f3bbdd1b4";
+				PROVISIONING_PROFILE_SPECIFIER = Testing;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +552,7 @@
 				F4B967BE1E319A6100CA15E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

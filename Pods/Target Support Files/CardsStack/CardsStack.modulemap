@@ -1,0 +1,6 @@
+framework module CardsStack {
+  umbrella header "CardsStack-umbrella.h"
+
+  export *
+  module * { export * }
+}
